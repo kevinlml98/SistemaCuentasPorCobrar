@@ -8,7 +8,7 @@ namespace DAL
 {
     public static class DBConnection
     {
-        private static readonly string StrCadenaConexion = @"Data Source=.;Initial Catalog=DentistaDB;User ID=sa;Password=9526";
+        private static readonly string StrCadenaConexion = @"Data Source=.;Initial Catalog=PROYECTO_ING;User ID=sa;Password=9526";
 
         //private static string StrCadenaConexion = ConfigurationManager.ConnectionStrings["cnnString"]?.ConnectionString;
         /// <summary>

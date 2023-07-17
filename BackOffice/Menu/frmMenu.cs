@@ -21,7 +21,6 @@ namespace BackOffice.Menu
             {
                 this.btnPersona.Visible = false;
                 this.btnUsuarios.Visible = false;
-                this.btnEmpleados.Visible = false;
                 
             }
             else
@@ -107,11 +106,6 @@ namespace BackOffice.Menu
             OpenForm<frmUsuario>();
         }
 
-        private void btnEmpleados_Click(object sender, EventArgs e)
-        {
-            
-            OpenForm<frmEmpleados>();
-        }
 
          
 
