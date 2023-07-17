@@ -16,3 +16,9 @@ D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffic
 D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BackOffice\bin\Debug\DAL.dll
 D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BackOffice\bin\Debug\DAL.pdb
 D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.frmInicio.resources
+D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.Menu.frmEmpresa.resources
+D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.Menu.frmMenu.resources
+D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.Menu.frmPanelPrincipal.resources
+D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.Menu.frmPersona.resources
+D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.Menu.frmPrueba.resources
+D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.Menu.frmUsuario.resources

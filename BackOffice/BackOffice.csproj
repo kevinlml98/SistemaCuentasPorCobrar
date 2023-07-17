@@ -73,12 +73,6 @@
     <Compile Include="frmInicio.Designer.cs">
       <DependentUpon>frmInicio.cs</DependentUpon>
     </Compile>
-    <Compile Include="Menu\frmEmpleados.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Menu\frmEmpleados.designer.cs">
-      <DependentUpon>frmEmpleados.cs</DependentUpon>
-    </Compile>
     <Compile Include="Menu\frmEmpresa.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,9 +113,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmInicio.resx">
       <DependentUpon>frmInicio.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Menu\frmEmpleados.resx">
-      <DependentUpon>frmEmpleados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu\frmEmpresa.resx">
       <DependentUpon>frmEmpresa.cs</DependentUpon>

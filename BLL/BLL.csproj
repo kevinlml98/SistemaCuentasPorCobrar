@@ -42,7 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PersonaBLL\EmpleadoBLL.cs" />
+    <Compile Include="PersonaBLL\PersonaBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RolBLL\RolBLL.cs" />
     <Compile Include="UsuarioBLL\UsuarioBLL.cs" />
   </ItemGroup>
   <ItemGroup>
