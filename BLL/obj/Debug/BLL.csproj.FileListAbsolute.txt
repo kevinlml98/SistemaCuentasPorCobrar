@@ -1,0 +1,11 @@
+D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BLL\bin\Debug\BLL.dll
+D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BLL\bin\Debug\BLL.pdb
+D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BLL\bin\Debug\DAL.dll
+D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BLL\bin\Debug\DTO.dll
+D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BLL\bin\Debug\DAL.pdb
+D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BLL\bin\Debug\DTO.pdb
+D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BLL\obj\Debug\BLL.dll
+D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BLL\obj\Debug\BLL.pdb

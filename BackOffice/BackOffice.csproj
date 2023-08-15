@@ -67,8 +67,71 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInicio.Designer.cs">
+      <DependentUpon>frmInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\frmEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\frmEmpresa.designer.cs">
+      <DependentUpon>frmEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\frmMenu.designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\frmPanelPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\frmPanelPrincipal.designer.cs">
+      <DependentUpon>frmPanelPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\frmPersona.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\frmPersona.designer.cs">
+      <DependentUpon>frmPersona.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\frmPrueba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\frmPrueba.designer.cs">
+      <DependentUpon>frmPrueba.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\frmUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\frmUsuario.designer.cs">
+      <DependentUpon>frmUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmInicio.resx">
+      <DependentUpon>frmInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\frmEmpresa.resx">
+      <DependentUpon>frmEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\frmPanelPrincipal.resx">
+      <DependentUpon>frmPanelPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\frmPersona.resx">
+      <DependentUpon>frmPersona.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\frmPrueba.resx">
+      <DependentUpon>frmPrueba.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\frmUsuario.resx">
+      <DependentUpon>frmUsuario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
