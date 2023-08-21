@@ -22,3 +22,5 @@ D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffic
 D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.Menu.frmPersona.resources
 D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.Menu.frmPrueba.resources
 D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.Menu.frmUsuario.resources
+D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.PanelPrincipal.frmListaCuentas.resources
+D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.PanelPrincipal.frmNuevaCuenta.resources

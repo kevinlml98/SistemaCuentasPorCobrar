@@ -16,5 +16,19 @@ namespace BLL.PersonaBLL
         {
             return PersonaDAL.CrearPersona(personaDTO);
         }
+
+        public static void CrearEmpleado(EmpleadoDTO empleadoDTO)
+        {
+            PersonaDAL.CrearEmpleado(empleadoDTO);
+        }
+        public static void ActualizarEmpleado(EmpleadoDTO empleadoDTO)
+        {
+            PersonaDAL.ActualizarEmpleado(empleadoDTO);
+        }
+
+        public static List<EmpleadoDTO> ObtenerEmpleados()
+        {
+            return PersonaDAL.ObtenerEmpleados();
+        }
     }
 }

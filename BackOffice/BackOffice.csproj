@@ -109,6 +109,18 @@
     <Compile Include="Menu\frmUsuario.designer.cs">
       <DependentUpon>frmUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="PanelPrincipal\frmListaCuentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanelPrincipal\frmListaCuentas.Designer.cs">
+      <DependentUpon>frmListaCuentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanelPrincipal\frmNuevaCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanelPrincipal\frmNuevaCuenta.Designer.cs">
+      <DependentUpon>frmNuevaCuenta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmInicio.resx">
@@ -131,6 +143,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Menu\frmUsuario.resx">
       <DependentUpon>frmUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelPrincipal\frmListaCuentas.resx">
+      <DependentUpon>frmListaCuentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelPrincipal\frmNuevaCuenta.resx">
+      <DependentUpon>frmNuevaCuenta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

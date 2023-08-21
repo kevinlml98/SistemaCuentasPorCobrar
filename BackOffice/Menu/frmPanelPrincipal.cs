@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BackOffice.PanelPrincipal;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -59,6 +60,16 @@ namespace BackOffice.Menu
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnNuevaCuenta_Click(object sender, EventArgs e)
+        {
+            OpenForm<frmNuevaCuenta>();
+        }
+
+        private void btnListaCuenta_Click(object sender, EventArgs e)
+        {
+            OpenForm<frmListaCuentas>();
         }
     }
 }

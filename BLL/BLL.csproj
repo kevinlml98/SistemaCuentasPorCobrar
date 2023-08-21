@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CuentaBLL\CuentaBLL.cs" />
     <Compile Include="PersonaBLL\EmpleadoBLL.cs" />
     <Compile Include="PersonaBLL\PersonaBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PanelPrincipalDTO\CuentaDTO.cs" />
+    <Compile Include="PanelPrincipalDTO\FacturaDTO.cs" />
     <Compile Include="PersonaDTO\EmpleadoDTO.cs" />
     <Compile Include="PersonaDTO\PersonaDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
