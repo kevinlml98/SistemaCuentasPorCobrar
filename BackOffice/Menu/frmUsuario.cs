@@ -38,7 +38,7 @@ namespace BackOffice.Menu
             {
                 User = this.txtNombreUsuario.Text,
                 Password = this.txtContrasena.Text,
-                Activo = true,
+                Activo = this.chkActivo.Checked,
                 Persona = int.Parse(this.txtIdPersona.Text),
                 Rol = int.Parse(this.cmbRol.SelectedValue.ToString())
             };
@@ -53,9 +53,9 @@ namespace BackOffice.Menu
             {
                 User = this.txtNombreUsuario.Text,
                 Password = this.txtContrasena.Text,
-                Activo = true,
+                Activo = this.chkActivo.Checked,
                 Persona = int.Parse(this.txtIdPersona.Text),
-                Rol = int.Parse(this.cmbRol.SelectedValue.ToString())
+                Rol = int.Parse(this.cmbRol.SelectedValue.ToString()),
             };
 
             PersonaBLL.ActualizarEmpleado(empleado);
@@ -68,9 +68,10 @@ namespace BackOffice.Menu
             {
                 DataGridViewRow selectedRow = this.DgvDatos.Rows[e.RowIndex];
                 this.txtIdPersona.Text = selectedRow.Cells["Persona"].Value.ToString();
-                this.txtIdUsuario.Text = selectedRow.Cells["User"].Value.ToString();
+                this.txtNombreUsuario.Text = selectedRow.Cells["User"].Value.ToString();
                 this.txtContrasena.Text = selectedRow.Cells["Password"].Value.ToString();
-                this.cmbRol.SelectedText = selectedRow.Cells["Rol"].Value.ToString();
+                this.cmbRol.SelectedIndex = int.Parse(selectedRow.Cells["Rol"].Value.ToString()) - 1;
+                this.chkActivo.Checked = bool.Parse(selectedRow.Cells["Activo"].Value.ToString());
             }
         }
     }

@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CuentaBLL\CuentaBLL.cs" />
+    <Compile Include="EmpresaBLL\EmpresaBLL.cs" />
     <Compile Include="PersonaBLL\EmpleadoBLL.cs" />
     <Compile Include="PersonaBLL\PersonaBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

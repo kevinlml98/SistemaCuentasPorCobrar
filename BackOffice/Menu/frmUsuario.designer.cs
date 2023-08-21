@@ -32,15 +32,15 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.txtIdPersona = new System.Windows.Forms.TextBox();
             this.txtContrasena = new System.Windows.Forms.TextBox();
             this.txtNombreUsuario = new System.Windows.Forms.TextBox();
-            this.txtIdUsuario = new System.Windows.Forms.TextBox();
             this.btnActualizar = new System.Windows.Forms.Button();
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.DgvDatos = new System.Windows.Forms.DataGridView();
             this.cmbRol = new System.Windows.Forms.ComboBox();
+            this.chkActivo = new System.Windows.Forms.CheckBox();
+            this.lblActivo = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.DgvDatos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,7 +49,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(73, 258);
+            this.label2.Location = new System.Drawing.Point(81, 207);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(103, 20);
@@ -61,7 +61,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(73, 208);
+            this.label1.Location = new System.Drawing.Point(81, 157);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 20);
@@ -73,7 +73,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label3.Location = new System.Drawing.Point(73, 164);
+            this.label3.Location = new System.Drawing.Point(81, 113);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(111, 20);
@@ -85,28 +85,16 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label4.Location = new System.Drawing.Point(73, 111);
+            this.label4.Location = new System.Drawing.Point(81, 60);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(148, 20);
             this.label4.TabIndex = 6;
             this.label4.Text = "Nombre usuario:";
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label5.Location = new System.Drawing.Point(73, 58);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(98, 20);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Id usuario:";
-            // 
             // txtIdPersona
             // 
-            this.txtIdPersona.Location = new System.Drawing.Point(259, 254);
+            this.txtIdPersona.Location = new System.Drawing.Point(267, 203);
             this.txtIdPersona.Margin = new System.Windows.Forms.Padding(4);
             this.txtIdPersona.Name = "txtIdPersona";
             this.txtIdPersona.Size = new System.Drawing.Size(523, 22);
@@ -114,7 +102,7 @@
             // 
             // txtContrasena
             // 
-            this.txtContrasena.Location = new System.Drawing.Point(259, 159);
+            this.txtContrasena.Location = new System.Drawing.Point(267, 108);
             this.txtContrasena.Margin = new System.Windows.Forms.Padding(4);
             this.txtContrasena.Name = "txtContrasena";
             this.txtContrasena.Size = new System.Drawing.Size(523, 22);
@@ -122,19 +110,11 @@
             // 
             // txtNombreUsuario
             // 
-            this.txtNombreUsuario.Location = new System.Drawing.Point(259, 106);
+            this.txtNombreUsuario.Location = new System.Drawing.Point(267, 55);
             this.txtNombreUsuario.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombreUsuario.Name = "txtNombreUsuario";
             this.txtNombreUsuario.Size = new System.Drawing.Size(523, 22);
             this.txtNombreUsuario.TabIndex = 11;
-            // 
-            // txtIdUsuario
-            // 
-            this.txtIdUsuario.Location = new System.Drawing.Point(259, 53);
-            this.txtIdUsuario.Margin = new System.Windows.Forms.Padding(4);
-            this.txtIdUsuario.Name = "txtIdUsuario";
-            this.txtIdUsuario.Size = new System.Drawing.Size(523, 22);
-            this.txtIdUsuario.TabIndex = 12;
             // 
             // btnActualizar
             // 
@@ -161,21 +141,42 @@
             // DgvDatos
             // 
             this.DgvDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DgvDatos.Location = new System.Drawing.Point(77, 311);
+            this.DgvDatos.Location = new System.Drawing.Point(77, 254);
             this.DgvDatos.Margin = new System.Windows.Forms.Padding(4);
             this.DgvDatos.Name = "DgvDatos";
             this.DgvDatos.RowHeadersWidth = 51;
-            this.DgvDatos.Size = new System.Drawing.Size(869, 185);
+            this.DgvDatos.Size = new System.Drawing.Size(869, 242);
             this.DgvDatos.TabIndex = 23;
             this.DgvDatos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvDatos_CellClick);
             // 
             // cmbRol
             // 
             this.cmbRol.FormattingEnabled = true;
-            this.cmbRol.Location = new System.Drawing.Point(259, 208);
+            this.cmbRol.Location = new System.Drawing.Point(267, 157);
             this.cmbRol.Name = "cmbRol";
             this.cmbRol.Size = new System.Drawing.Size(242, 24);
             this.cmbRol.TabIndex = 24;
+            // 
+            // chkActivo
+            // 
+            this.chkActivo.AutoSize = true;
+            this.chkActivo.Location = new System.Drawing.Point(618, 160);
+            this.chkActivo.Name = "chkActivo";
+            this.chkActivo.Size = new System.Drawing.Size(18, 17);
+            this.chkActivo.TabIndex = 25;
+            this.chkActivo.UseVisualStyleBackColor = true;
+            // 
+            // lblActivo
+            // 
+            this.lblActivo.AutoSize = true;
+            this.lblActivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblActivo.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblActivo.Location = new System.Drawing.Point(543, 157);
+            this.lblActivo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblActivo.Name = "lblActivo";
+            this.lblActivo.Size = new System.Drawing.Size(67, 20);
+            this.lblActivo.TabIndex = 26;
+            this.lblActivo.Text = "Activo:";
             // 
             // frmUsuario
             // 
@@ -183,15 +184,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateGray;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.lblActivo);
+            this.Controls.Add(this.chkActivo);
             this.Controls.Add(this.cmbRol);
             this.Controls.Add(this.DgvDatos);
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.btnRegistrar);
-            this.Controls.Add(this.txtIdUsuario);
             this.Controls.Add(this.txtNombreUsuario);
             this.Controls.Add(this.txtContrasena);
             this.Controls.Add(this.txtIdPersona);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
@@ -211,14 +212,14 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtIdPersona;
         private System.Windows.Forms.TextBox txtContrasena;
         private System.Windows.Forms.TextBox txtNombreUsuario;
-        private System.Windows.Forms.TextBox txtIdUsuario;
         private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.Button btnRegistrar;
         private System.Windows.Forms.DataGridView DgvDatos;
         private System.Windows.Forms.ComboBox cmbRol;
+        private System.Windows.Forms.CheckBox chkActivo;
+        private System.Windows.Forms.Label lblActivo;
     }
 }

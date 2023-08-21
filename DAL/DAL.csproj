@@ -46,6 +46,7 @@
     <Compile Include="ClienteDAL\ClienteDAL.cs" />
     <Compile Include="CuentaDAL\CuentaDAL.cs" />
     <Compile Include="DBConnection.cs" />
+    <Compile Include="EmpresaDAL\EmpresaDAL.cs" />
     <Compile Include="PersonaDAL\EmpleadoDAL.cs" />
     <Compile Include="PersonaDAL\PersonaDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

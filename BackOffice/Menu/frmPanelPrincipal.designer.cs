@@ -29,11 +29,10 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panelMain = new System.Windows.Forms.Panel();
-            this.btnNuevaCuenta = new System.Windows.Forms.Button();
             this.btnListaCuenta = new System.Windows.Forms.Button();
+            this.btnNuevaCuenta = new System.Windows.Forms.Button();
+            this.panelMain = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,42 +49,31 @@
             this.label1.Text = "Principal";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(16, 90);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 28);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel1.Controls.Add(this.btnListaCuenta);
             this.panel1.Controls.Add(this.btnNuevaCuenta);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.button1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(131, 634);
             this.panel1.TabIndex = 2;
             // 
-            // panelMain
+            // btnListaCuenta
             // 
-            this.panelMain.BackColor = System.Drawing.Color.Honeydew;
-            this.panelMain.Location = new System.Drawing.Point(139, 15);
-            this.panelMain.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(813, 603);
-            this.panelMain.TabIndex = 3;
+            this.btnListaCuenta.Location = new System.Drawing.Point(12, 169);
+            this.btnListaCuenta.Name = "btnListaCuenta";
+            this.btnListaCuenta.Size = new System.Drawing.Size(100, 70);
+            this.btnListaCuenta.TabIndex = 3;
+            this.btnListaCuenta.Text = "Lista de Cuentas";
+            this.btnListaCuenta.UseVisualStyleBackColor = true;
+            this.btnListaCuenta.Click += new System.EventHandler(this.btnListaCuenta_Click);
             // 
             // btnNuevaCuenta
             // 
-            this.btnNuevaCuenta.Location = new System.Drawing.Point(16, 141);
+            this.btnNuevaCuenta.Location = new System.Drawing.Point(12, 82);
             this.btnNuevaCuenta.Name = "btnNuevaCuenta";
             this.btnNuevaCuenta.Size = new System.Drawing.Size(100, 69);
             this.btnNuevaCuenta.TabIndex = 2;
@@ -93,15 +81,14 @@
             this.btnNuevaCuenta.UseVisualStyleBackColor = true;
             this.btnNuevaCuenta.Click += new System.EventHandler(this.btnNuevaCuenta_Click);
             // 
-            // btnListaCuenta
+            // panelMain
             // 
-            this.btnListaCuenta.Location = new System.Drawing.Point(16, 228);
-            this.btnListaCuenta.Name = "btnListaCuenta";
-            this.btnListaCuenta.Size = new System.Drawing.Size(100, 70);
-            this.btnListaCuenta.TabIndex = 3;
-            this.btnListaCuenta.Text = "Lista de Cuentas";
-            this.btnListaCuenta.UseVisualStyleBackColor = true;
-            this.btnListaCuenta.Click += new System.EventHandler(this.btnListaCuenta_Click);
+            this.panelMain.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.panelMain.Location = new System.Drawing.Point(150, 15);
+            this.panelMain.Margin = new System.Windows.Forms.Padding(4);
+            this.panelMain.Name = "panelMain";
+            this.panelMain.Size = new System.Drawing.Size(1026, 603);
+            this.panelMain.TabIndex = 3;
             // 
             // frmPanelPrincipal
             // 
@@ -111,7 +98,7 @@
             this.ClientSize = new System.Drawing.Size(1199, 633);
             this.Controls.Add(this.panelMain);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmPanelPrincipal";
             this.Text = "frmPanelPrincipal";
             this.Load += new System.EventHandler(this.frmPanelPrincipal_Load);
@@ -124,7 +111,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panelMain;
         private System.Windows.Forms.Button btnNuevaCuenta;

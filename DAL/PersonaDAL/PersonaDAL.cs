@@ -61,6 +61,71 @@ namespace DAL.PersonaDAL
             return DBConnection.ExecuteStorageProcedure<PersonaDTO>("SP_CrearPersona", parameters);
         }
 
+        public static List<PersonaDTO> EliminarPersona(PersonaDTO persona)
+        {
+
+
+            // Creando una lista de parámetros de base de datos
+            List<DBParameter> parameters = new List<DBParameter>
+        {
+            new DBParameter()
+            {
+                ParameterName = "@PersonaID",
+                ParameterValue = persona.Identificacion
+            }
+        };
+
+            // Llamando a un procedimiento almacenado llamado "SP_EliminarPersona" con los parámetros proporcionados
+            return DBConnection.ExecuteStorageProcedure<PersonaDTO>("SP_EliminarPersona", parameters);
+
+
+        }
+
+        public static List<PersonaDTO> ActualizarPersona(PersonaDTO persona)
+        {
+            List<DBParameter> parameters = new List<DBParameter>
+            {
+                new DBParameter()
+                {
+                    ParameterName = "@PersonaID",
+                    ParameterValue = persona.Identificacion
+
+                },
+                new DBParameter()
+                {
+                    ParameterName = "@NOMBRE",
+                    ParameterValue = persona.Nombre
+                },
+                new DBParameter()
+                {
+                    ParameterName = "@APELLIDO1",
+                    ParameterValue = persona.Apellido1
+                },
+                new DBParameter()
+                {
+                    ParameterName = "@APELLIDO2",
+                    ParameterValue = persona.Apellido2
+                },
+                new DBParameter()
+                {
+                    ParameterName = "@DIRECCION",
+                    ParameterValue = persona.Direccion
+                },
+                new DBParameter()
+                {
+                    ParameterName = "@TELEFONO",
+                    ParameterValue = persona.Telefono
+                },
+                new DBParameter()
+                {
+                    ParameterName = "@EMAIL",
+                    ParameterValue = persona.Email
+                }
+            };
+
+            return DBConnection.ExecuteStorageProcedure<PersonaDTO>("SP_ActualizarPersona", parameters);
+        }
+               
         public static void CrearEmpleado (EmpleadoDTO empleadoDTO)
         {
             List<DBParameter> parameters = new List<DBParameter> { 
@@ -83,6 +148,11 @@ namespace DAL.PersonaDAL
                 {
                     ParameterName = "@Rol",
                     ParameterValue = empleadoDTO.Rol
+                },
+                new DBParameter()
+                {
+                    ParameterName = "@Activo",
+                    ParameterValue = empleadoDTO.Activo
                 }
             };
             DBConnection.ExecuteStorageProcedure("SP_AddEmpleado", parameters);

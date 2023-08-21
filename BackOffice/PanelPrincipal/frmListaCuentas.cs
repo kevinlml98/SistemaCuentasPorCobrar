@@ -46,12 +46,17 @@ namespace BackOffice.PanelPrincipal
 
         private void btnAbonar_Click(object sender, EventArgs e)
         {
+            int persona = int.Parse(this.txtBuscar.Text);
             CuentaDTO cuenta = new CuentaDTO()
             {
                 Id = int.Parse(this.txtCuenta.Text),
-                MontoCuota = decimal.Parse(this.txtCuota.Text)
+                MontoCuota = decimal.Parse(this.txtAbonar.Text),
+                IdPersona= persona
             };
-            
+
+            CuentaBLL.UpdateCuota(cuenta);
+            List<CuentaDTO> cuentas = CuentaBLL.GetCuenta(cuenta);
+            this.tableCuotas.DataSource = cuentas;
         }
     }
 }

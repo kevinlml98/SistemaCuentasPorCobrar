@@ -55,15 +55,15 @@ namespace DAL.CuentaDAL
                 new DBParameter()
                 {
                     ParameterName  = "@Id",
-                    ParameterValue = cuentaDTO.IdPersona
+                    ParameterValue = cuentaDTO.Id
                 },
                 new DBParameter()
                 {
-                    ParameterName  = "@IdPersona",
-                    ParameterValue = cuentaDTO.IdPersona
+                    ParameterName  = "@MontoCuota",
+                    ParameterValue = cuentaDTO.MontoCuota
                 }
             };
-            DBConnection.ExecuteStorageProcedure<CuentaDTO>("SP_GetCuenta", parameters);
+            DBConnection.ExecuteStorageProcedure("SP_UpdateCuota", parameters);
         }
     }
 }

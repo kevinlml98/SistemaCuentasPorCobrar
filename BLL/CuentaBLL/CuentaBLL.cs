@@ -16,5 +16,9 @@ namespace BLL.CuentaBLL
         {
             return CuentaDAL.GetCuenta(cuentaDTO);
         }
+        public static void UpdateCuota(CuentaDTO cuenta)
+        {
+            CuentaDAL.UpdateCuota(cuenta);
+        }
     }
 }
