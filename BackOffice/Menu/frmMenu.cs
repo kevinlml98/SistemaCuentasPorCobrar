@@ -83,7 +83,7 @@ namespace BackOffice.Menu
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-
+            this.Dispose();
         }
 
         private void frmMenu_Load_1(object sender, EventArgs e)

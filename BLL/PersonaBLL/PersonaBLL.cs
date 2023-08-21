@@ -79,18 +79,30 @@ namespace BLL.PersonaBLL
         }
 
    
-        public static void CrearEmpleado(EmpleadoDTO empleadoDTO)
+        public static bool CrearEmpleado(EmpleadoDTO empleadoDTO)
         {
-            PersonaDAL.CrearEmpleado(empleadoDTO);
+            List<EmpleadoDTO> empleados = PersonaDAL.ObtenerEmpleados(empleadoDTO);
+            if(empleados.Count == 0)
+            {
+                PersonaDAL.CrearEmpleado(empleadoDTO);
+                return true;
+            }
+            else
+            {
+                return false;
+            }            
+            
         }
-        public static void ActualizarEmpleado(EmpleadoDTO empleadoDTO)
+        public static bool ActualizarEmpleado(EmpleadoDTO empleadoDTO)
         {
             PersonaDAL.ActualizarEmpleado(empleadoDTO);
+            return true;
         }
 
         public static List<EmpleadoDTO> ObtenerEmpleados()
         {
             return PersonaDAL.ObtenerEmpleados();
         }
+       
     }
 }

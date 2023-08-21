@@ -14,6 +14,7 @@ namespace BackOffice
             InitializeComponent();
         }
 
+        
         private void btnLogin_Click(object sender, EventArgs e)
         {
             V_UsuarioDTO usr = new V_UsuarioDTO
@@ -25,11 +26,10 @@ namespace BackOffice
             List<P_UsuarioDTO> personas = UsuarioBLL.VerificarUsuario(usr);
             if(personas.Count > 0 )
             {
-                P_UsuarioDTO persona = personas[0];
-                string mensaje = $@"Nombre: {persona.Nombre}
-                                    Rol: {persona.Rol}
-                                    Permisos: {persona.Permisos} ";
-                MessageBox.Show(mensaje);
+                P_UsuarioDTO persona = personas[0]; 
+                MessageBox.Show("Bienvenid@: " + persona.Nombre);
+                Program.IsValid = true;
+                this.Dispose();
             }
             else
             {

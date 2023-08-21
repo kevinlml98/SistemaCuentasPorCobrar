@@ -194,5 +194,21 @@ namespace DAL.PersonaDAL
         {            
             return DBConnection.ExecuteStorageProcedure<EmpleadoDTO>("SP_GetEmpleado");
         }
+        public static List<EmpleadoDTO> ObtenerEmpleados(EmpleadoDTO empleado)
+        {
+            List<DBParameter> parameters = new List<DBParameter> {
+                new DBParameter()
+                {
+                    ParameterName = "@User",
+                    ParameterValue = empleado.User
+                },
+                new DBParameter()
+                {
+                    ParameterName = "@Persona",
+                    ParameterValue = empleado.Persona
+                }
+            };
+            return DBConnection.ExecuteStorageProcedure<EmpleadoDTO>("SP_GetOneEmpleado", parameters);
+        }
     }
 }

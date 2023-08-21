@@ -33,6 +33,10 @@ namespace BackOffice.PanelPrincipal
             };
             
             CuentaBLL.AddCuenta(cuentaDTO);
+            txtCuota.Text = "0";
+            txtIdPersona.Text = "0";
+            txtMonto.Text = "0";
+            MessageBox.Show("Cuenta Creada");
 
         }
 

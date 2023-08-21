@@ -43,8 +43,22 @@ namespace BackOffice.Menu
                 Rol = int.Parse(this.cmbRol.SelectedValue.ToString())
             };
 
-            PersonaBLL.CrearEmpleado(empleado);
-            ObtenerEmpleados();
+            bool result = PersonaBLL.CrearEmpleado(empleado);
+            if (result)
+            {
+                MessageBox.Show("Usuario Creado");
+                ObtenerEmpleados();
+                txtNombreUsuario.Text = string.Empty;
+                txtContrasena.Text = string.Empty;
+                chkActivo.Checked = false;
+                txtIdPersona.Text = string.Empty;
+
+            }
+            else
+            {
+                MessageBox.Show("No se pudo crear por que los datos ya estan usados");
+            }
+            
         }
 
         private void btnActualizar_Click(object sender, System.EventArgs e)
@@ -57,9 +71,22 @@ namespace BackOffice.Menu
                 Persona = int.Parse(this.txtIdPersona.Text),
                 Rol = int.Parse(this.cmbRol.SelectedValue.ToString()),
             };
+                        
+            bool result = PersonaBLL.ActualizarEmpleado(empleado);
+            if (result)
+            {
+                MessageBox.Show("Usuario Actualizado");
+                ObtenerEmpleados();
+                txtNombreUsuario.Text = string.Empty;
+                txtContrasena.Text = string.Empty;
+                chkActivo.Checked = false;
+                txtIdPersona.Text = string.Empty;
 
-            PersonaBLL.ActualizarEmpleado(empleado);
-            ObtenerEmpleados();
+            }
+            else
+            {
+                MessageBox.Show("No se pudo crear por que los datos ya estan usados");
+            }
         }
 
         private void DgvDatos_CellClick(object sender, DataGridViewCellEventArgs e)

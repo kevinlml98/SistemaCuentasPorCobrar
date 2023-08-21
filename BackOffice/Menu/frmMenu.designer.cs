@@ -153,6 +153,7 @@
             this.Controls.Add(this.panelButtons);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmMenu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
             this.Load += new System.EventHandler(this.frmMenu_Load_1);
             this.panelButtons.ResumeLayout(false);
