@@ -4,3 +4,9 @@ D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\DTO\obj\Debug\DTO.csproj.Assem
 D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\DTO\obj\Debug\DTO.dll
 D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\DTO\obj\Debug\DTO.pdb
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\DTO\bin\Debug\DTO.dll
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\DTO\bin\Debug\DTO.pdb
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\DTO\obj\Debug\DTO.dll
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\DTO\obj\Debug\DTO.pdb

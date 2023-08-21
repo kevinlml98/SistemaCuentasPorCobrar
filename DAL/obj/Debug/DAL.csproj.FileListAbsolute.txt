@@ -7,3 +7,12 @@ D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\DAL\obj\Debug\DAL.csproj.CoreC
 D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\DAL\obj\Debug\DAL.dll
 D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\DAL\obj\Debug\DAL.pdb
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\DAL\bin\Debug\DAL.dll
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\DAL\bin\Debug\DAL.pdb
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\DAL\bin\Debug\DTO.dll
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\DAL\bin\Debug\DTO.pdb
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\DAL\obj\Debug\DAL.dll
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\DAL\obj\Debug\DAL.pdb

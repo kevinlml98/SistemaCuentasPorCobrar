@@ -22,3 +22,27 @@ D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffic
 D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.Menu.frmPersona.resources
 D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.Menu.frmPrueba.resources
 D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.Menu.frmUsuario.resources
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BackOffice\bin\Debug\BackOffice.exe.config
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BackOffice\bin\Debug\BackOffice.exe
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BackOffice\bin\Debug\BackOffice.pdb
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BackOffice\bin\Debug\BLL.dll
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BackOffice\bin\Debug\DTO.dll
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BackOffice\bin\Debug\DAL.dll
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BackOffice\bin\Debug\BLL.pdb
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BackOffice\bin\Debug\DTO.pdb
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BackOffice\bin\Debug\DAL.pdb
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.csproj.AssemblyReference.cache
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.csproj.SuggestedBindingRedirects.cache
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.frmInicio.resources
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.Menu.frmEmpresa.resources
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.Menu.frmMenu.resources
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.Menu.frmPanelPrincipal.resources
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.Menu.frmPersona.resources
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.Menu.frmPrueba.resources
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.Menu.frmUsuario.resources
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.Properties.Resources.resources
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.csproj.GenerateResource.cache
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.csproj.CoreCompileInputs.cache
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.csproj.CopyComplete
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.exe
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BackOffice\obj\Debug\BackOffice.pdb
