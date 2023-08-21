@@ -9,3 +9,14 @@ D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BLL\obj\Debug\BLL.csproj.CoreC
 D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BLL\obj\Debug\BLL.csproj.CopyComplete
 D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BLL\obj\Debug\BLL.dll
 D:\Proyectos VisualStudio\SistemaCuentasPorCobrar\BLL\obj\Debug\BLL.pdb
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BLL\bin\Debug\BLL.dll
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BLL\bin\Debug\BLL.pdb
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BLL\bin\Debug\DAL.dll
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BLL\bin\Debug\DTO.dll
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BLL\bin\Debug\DAL.pdb
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BLL\bin\Debug\DTO.pdb
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BLL\obj\Debug\BLL.dll
+D:\CUATRI 5\ING REQUERIMIENTOS\SistemaCuentasPorCobrar\BLL\obj\Debug\BLL.pdb
